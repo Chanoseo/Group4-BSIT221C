@@ -1,0 +1,117 @@
+.section_1 {
+    text-align: center;
+    margin: 1.7% 21% 1% 21%;
+    .head {
+        font-size: 3rem;
+    }
+    .para {
+        font-size: 1.5rem;
+    }
+}
+.section_2 {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 3% 0 10.5% 0;
+    text-align: center;
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        width: 18%;
+        border-radius: 100%;
+        .image {
+            border-radius: 100%;
+            object-fit: cover;
+            box-shadow: 0 0 5px rgba(0, 0, 0, .8);
+            position: relative;
+            top: 0;
+            transition: top 200ms linear;
+        }
+        .image:hover {
+            top: -15px;
+        }
+    }
+}
+/*LAPTOP SCREEN*/
+@media (max-width:1024px) {
+    .section_1 {
+        margin: 1% 18.4% 1% 18.4%;
+        .para {
+            font-size: 1.3rem;
+        }
+    }
+    .section_2 {
+        flex-wrap: wrap;
+        gap: 3rem;
+        margin: 4% 0 5% 0;
+        .container {
+            width: 25%;
+            border-radius: 100%;
+            gap: 1.2rem;
+            .image {
+                width: 200px;
+                height: 200px;
+            }
+        }
+    }
+}
+/*TABLET SCREEN*/
+@media (max-width:768px) {
+    .section_1 {
+        margin: 1% 16% 1% 16%;
+        .head {
+            font-size: 2.5rem;
+        }
+        .para {
+            font-size: 1.1rem;
+        }
+    }
+    .section_2 {
+        flex-wrap: wrap;
+        gap: 3rem;
+        margin: 4% 0 10% 0;
+        .members {
+            font-size: 1.8rem;
+        }
+        .image {
+            width: 190px;
+            height: 190px;
+        }
+        .image:hover {
+            top: 0 !important;
+        }
+    }
+}
+/*MOBILE SCREEN*/
+@media (max-width:320px) {
+    .section_1 {
+        margin: 1% 18.4% 1% 18.4%;
+        .para {
+            font-size: 1rem;
+        }
+    }
+    .section_2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin-block-start: 10%;
+        .container {
+            width: 25%;
+            border-radius: 100%;
+            .members {
+                font-size: 1.5rem;
+            }
+            .image {
+                width: 180px;
+                height: 180px;
+            }
+            .image:hover {
+                top: 0;
+            }
+        }
+    }
+}

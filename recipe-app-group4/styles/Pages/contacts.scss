@@ -1,0 +1,246 @@
+.contacts_section_1 {
+    text-align: center;
+    margin: 1.7% 21% 1% 21%;
+    .contacts_head {
+        font-size: 3rem;
+    }
+    .contacts_para {
+        font-size: 1.5rem;
+    }
+}
+.contacts_section_2 {
+    display: flex;
+    margin: 3% 14% 3.9% 14%;
+    height: 30rem;
+    background-color: aliceblue;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    .contacts_section_2_left {
+        background-color: aliceblue;
+        width: 70%;
+        height: 100%;
+        padding: 1%;
+        border-radius: 1rem;
+        .contacts_section_2_left_container {
+            background-color: rgb(189, 222, 251);
+            height: 100%;
+            border-radius: 1rem;
+            padding: 7%;
+            .contacts_section_2_contact_information {
+                padding-bottom: 2%;
+            }
+            .contacts_section_2_desc {
+                font-size: 1.3rem;
+            }
+            .contacts_section_2_div_1_container {
+                margin-top: 5%;
+                display: flex;
+                align-items: center;
+                .contacts_icon {
+                    font-size: 1.5rem;
+                }
+                .contacts_section_2_contact {
+                    margin-left: 5%;
+                    font-size: 1.2rem;
+                    .contacts_num {
+                        margin: 0;
+                    }
+                }
+            }
+            .contacts_section_2_div_2_container {
+                margin-top: 10%;
+                display: flex;
+                align-items: center;
+                .contacts_icon {
+                    font-size: 1.5rem;
+                }
+                .contacts_section_2_email {
+                    margin-left: 5%;
+                    font-size: 1.2rem;
+                }
+            }
+            .contacts_section_2_div_3_container {
+                margin-top: 10%;
+                display: flex;
+                align-items: center;
+                .contacts_icon {
+                    font-size: 1.5rem;
+                }
+                .contacts_section_2_location {
+                    margin-left: 5%;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+    .contacts_form {
+        border-radius: 0 1rem 1rem 0;
+        width: 100%;
+        height: 100%;
+        padding: 5%;
+        .contacts_name_email {
+            display: flex;
+            gap: 3rem;
+            .contacts_name {
+                width: 100%;
+                padding: 2%;
+                height: 3rem;
+                border: none;
+                background-color: aliceblue;
+                border-bottom: 2px solid rgb(189, 222, 251);
+                font-size: 1.5rem;
+                outline: none;
+            }
+        }
+        .contacts_email {
+            margin-top: 5%;
+            width: 100%;
+            padding: 2%;
+            height: 3rem;
+            border: none;
+            background-color: aliceblue;
+            border-bottom: 2px solid rgb(189, 222, 251);
+            font-size: 1.5rem;
+            outline: none;
+        }
+        .contacts_comment {
+            margin-top: 5%;
+            width: 100%;
+            padding: 2%;
+            height: 3rem;
+            border: none;
+            background-color: aliceblue;
+            border-bottom: 2px solid rgb(189, 222, 251);
+            font-size: 1.5rem;
+            outline: none;
+        }
+        .contacts_submit {
+            margin-top: 5%;
+            border: none;
+            border-radius: .5rem;
+            background-color: rgb(189, 222, 251);
+            font-size: 1.2rem;
+            width: 30%;
+            height: 3rem;
+            box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+        }
+    }
+}
+/*LAPTOP SCREEN*/
+@media (max-width: 1024px) {
+    .contacts_section_1 {
+        margin: 1% 18.4% 1% 18.4%;
+        .contacts_para {
+            font-size: 1.3rem;
+        }
+    }
+    .contacts_section_2 {
+        height: 27rem;
+        margin-bottom: 5.7%;
+        .contacts_section_2_contact_information {
+            font-size: 1.5rem;
+            padding-bottom: 3%;
+        }
+        .contacts_section_2_desc {
+            font-size: 1rem !important;
+        }
+        .icon {
+            font-size: 1.3rem;
+        }
+        .contacts_section_2_contact {
+            margin-left: 5%;
+            font-size: 1rem !important;
+        }
+        .contacts_section_2_email {
+            margin-left: 5%;
+            font-size: 1rem !important;
+        }
+        .contacts_section_2_location {
+            margin-left: 5%;
+            font-size: 1rem !important;
+        }
+    }
+    .contacts_name, .contacts_email, .contacts_comment {
+        font-size: 1.3rem !important;
+    }
+    .contacts_submit {
+        font-size: .9rem !important;
+        width: 27% !important;
+        height: 2.5rem !important;
+    }
+}
+/*TABLET SCREEN*/
+@media (max-width:768px) {
+    .contacts_section_1 {
+        margin: 1% 13% 1% 13%;
+        .contacts_head {
+            font-size: 2.5rem;
+        }
+        .contacts_para {
+            font-size: 1.1rem;
+        }
+    }
+    .contacts_section_2 {
+        height: 27rem;
+        margin: 3.5% 12% 9.2% 12%;
+        .contacts_section_2_contact_information {
+            font-size: 1.3rem;
+        }
+        .contacts_section_2_desc {
+            font-size: 1rem !important;
+        }
+    }
+    .contacts_submit {
+        font-size: .8rem !important;
+        width: 30% !important;
+        height: 2.2rem !important;
+    }
+}
+/*MOBILE SCREEN*/
+@media (max-width:320px) {
+    .contacts_section_1 {
+        margin: 0 10% 0 10%;
+        .contacts_head {
+            font-size: 2rem;
+        }
+        .contacts_para {
+            font-size: 1rem;
+        }
+    }
+    .contacts_section_2 {
+        flex-direction: column;
+        height: 100%;
+        margin: 5% 12% 10% 12%;
+        .contacts_section_2_left {
+            width: 100%;
+            padding: 2%;
+            .contacts_section_2_contact_information {
+                margin: 0;
+                font-size: 1.4rem;
+            }
+            .icon {
+                font-size: 1.2rem;
+            }
+            .contacts_section_2_contact {
+                font-size: .9rem !important;
+            }
+            .contacts_section_2_email {
+                font-size: .9rem !important;
+            }
+            .contacts_section_2_location {
+                font-size: .9rem !important;
+            }
+        }
+    }
+    .contacts_name, .contacts_email, .contacts_comment {
+        font-size: 1rem !important;
+    }
+    .contacts_name_email {
+        gap: 1rem !important;
+    }
+    .contacts_submit {
+        font-size: .8rem !important;
+        width: 40% !important;
+        height: 2rem !important;
+    }
+}

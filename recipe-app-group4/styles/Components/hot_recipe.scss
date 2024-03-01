@@ -1,0 +1,142 @@
+.hot_recipes_section_1 {
+    display: flex;
+    background-color: rgb(240, 248, 255);
+    width: 90%;
+    height: 50vh;
+    margin: 3% 5% 2% 5%;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    .hot_recipes_section_1_food {
+        width: 80%;
+        .hot_recipes_section_1_container {
+            padding: 5% 5% 2.5% 5%;
+            .hot_recipes_section_1_hr {
+                text-align: center;
+                font-size: 1.2rem;
+                width: 17%;
+                padding: 1%;
+                margin-block-end: 2%;
+                border-radius: 2rem;
+                background-color: #fff;
+                box-shadow: 2px 2px 2px rgba(0 , 0, 0, 0.2);
+            }
+            .hot_recipes_section_1_food_title {
+                font-size: 4rem;
+                padding-inline-end: 25%;
+            }
+            .hot_recipes_section_1_food_description {
+                font-size: 1.2rem;
+                margin-top: 3%;
+            }
+        }
+        .hot_recipes_section_1_tf_categ {
+            font-size: 1.2rem;
+            display: flex;
+            padding: 1% 5% 2% 5%;
+            gap: 5%;
+            .hot_recipes_section_1_tf_categ_contain {
+                text-align: center;
+                width: 20%;
+                border-radius: 2rem;
+                padding: 1%;
+                height: 100%;
+            }
+        }
+    }
+    .hot_recipes_section_1_image {
+        border-radius: 0 1rem 1rem 0;
+        background-color: silver;
+        width: 70%;
+        .hot_recipes_section_1_image_contain {
+            border-radius: 0 1rem 1rem 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+/*LAPTOP SCREEN*/
+@media (max-width: 1024px) {
+    .hot_recipes_section_1_hr {
+        width: 25% !important;
+    }
+    .hot_recipes_section_1_food_title {
+        font-size: 3rem !important;
+        margin: 2.5% 0 2.5% 0;
+    }
+    .hot_recipes_section_1_tf_categ_contain {
+        font-size: 1rem;
+        width: 22% !important;
+    }
+}
+/*TABLET SCREEN*/
+@media (max-width: 768px) {
+    .hot_recipes_section_1_hr {
+        width: 27% !important;
+        font-size: 1rem !important;
+    }
+    .hot_recipes_section_1_food_title {
+        font-size: 2.5rem !important;
+        margin: 5% 0 5% 0;
+    }
+    .hot_recipes_section_1_food_description {
+        font-size: 1.2rem !important;
+    }
+    .hot_recipes_section_1_tf_categ {
+        margin-top: 2%;
+        .hot_recipes_section_1_tf_categ_contain {
+            font-size: 1rem;
+            width: 30% !important;
+            margin: 0;
+        }
+    }
+}
+/*MOBILE SCREEN*/
+@media (max-width: 320px) {
+    .hot_recipes_section_1 {
+        background-image: url('/images/Foods/papeta_par_eda.jpeg');
+        margin-bottom: 7%;
+        .hot_recipes_section_1_food {
+            width: 100% !important;
+            .hot_recipes_section_1_container {
+                padding: 10% 5% 2.5% 5%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .hot_recipes_section_1_hr {
+                    width: 37% !important;
+                    font-size: 1rem !important;
+                    text-align: center;
+                }
+                .hot_recipes_section_1_food_title {
+                    width: 100%;
+                    text-align: center;
+                    font-size: 2rem !important;
+                    margin: 5% 0 0 0 !important;
+                    padding: 5% !important;
+                    background-color: #fff;
+                    border-radius: 1rem 1rem 0 0;
+                }
+                .hot_recipes_section_1_food_description {
+                    margin: 0 !important;
+                    font-size: 1rem !important;
+                    text-align: center;
+                    background-color: #fff;
+                    border-radius: 0 0 1rem 1rem;
+                    padding: 0 5% 5% 5%;
+                }
+            }
+        }
+        .hot_recipes_section_1_tf_categ {
+            margin-top: 3%;
+            .hot_recipes_section_1_tf_categ_contain {
+                font-size: .8rem;
+                width: 100% !important;
+                margin: 0;
+            }
+        }
+        .hot_recipes_section_1_image {
+            display: none;
+        }
+    }
+}

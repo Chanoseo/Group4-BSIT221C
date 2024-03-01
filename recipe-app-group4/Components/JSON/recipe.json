@@ -1,0 +1,179 @@
+[
+    {
+        "id" : 1,
+        "food_name" : "Papeta par Eda",
+        "time_cooking" : "45 mins",
+        "categ" : "Breakfast",
+        "country" : "India",
+        "image" : "/images/Foods/papeta_par_eda.jpeg",
+        "ingredients" : {
+            "ingredient_1" : "4 tablespoons extra-virgin olive oil or vegetable oil",
+            "ingredient_2" : "3 red onions (about 1 pound), thinly sliced",
+            "ingredient_3" : "1 tablespoon peeled and grated fresh ginger",
+            "ingredient_4" : "1 to 5 Thai green chiles or 1 to 2 serrano peppers (depending on your spice level), finely chopped",
+            "ingredient_5" : "3 cloves garlic, grated",
+            "ingredient_6" : "1 tablespoon unsalted butter",
+            "ingredient_7" : "3 Yukon gold potatoes (about 1 pound), peeled, cut into approximately 1/8-inch slices and soaked in a large bowl of water",
+            "ingredient_8" : "Kosher salt and freshly ground pepper",
+            "ingredient_9" :  "1/2 cup chopped fresh cilantro leaves and tender stems",
+            "ingredient_10" : "6 large eggs"
+        },
+        "directions" : {
+            "step_1" : "Heat the oil in a large heavy skillet over medium-high heat. Add the onions and cook, stirring occasionally, until soft, 4 to 5 minutes. Add the ginger, chiles and garlic and cook, stirring occasionally, until the raw smell goes away, about 3 minutes.",
+            "step_2" : "Add the butter, potatoes and 2 teaspoons salt and gently stir to combine. Lower the heat to medium and cook, occasionally gently turning over the potato and onion mixture from the bottom, until the potatoes are just cooked, but still firm, about 10 minutes. Some of the potatoes should have nice crispy edges and some of the onions should be caramelized.",
+            "step_3" : "Add most of the cilantro (reserving some for garnish) and gently stir in. Adjust the salt to taste. Gently flatten out the mixture and make 6 evenly spaced nests in it using the back of a spoon. Crack an egg into each nest.",
+            "step_4" : "Pour 2 tablespoons of water around the edge of the skillet. Cover the skillet, lower the heat to medium-low and cook until the egg whites are set and the yolks are still slightly wobbly, 8 to 10 minutes. (Open the lid and peek every few minutes to make sure the eggs are not getting overcooked.)",
+            "step_5" : "Sprinkle with some salt and pepper and garnish with the remaining cilantro."
+        }
+    },
+    {
+        "id" : 2,
+        "food_name" : "Lentil Bolognese",
+        "time_cooking" : "55 mins",
+        "categ" : "Vegan",
+        "country" : "Italy",
+        "image" : "/images/Foods/lentil_bolognese.jpg",
+        "ingredients" : {
+            "ingredient_1" : "1 ½ tablespoons olive oil",
+            "ingredient_2" : "1 large onion, diced",
+            "ingredient_3" : "4 garlic cloves, minced",
+            "ingredient_4" : "1 teaspoon dried oregano",
+            "ingredient_5" : "1 teaspoon dried thyme (or use more oregano)",
+            "ingredient_6" : "1 ½ teaspoons kosher salt, plus more to taste",
+            "ingredient_7" : "Freshly ground black pepper to taste",
+            "ingredient_8" : "1 (5.3-ounce) (150g) tube of tomato paste (see note 1)",
+            "ingredient_9" : "1/2 cup (120 mL) dry red wine (optional, see note 2)",
+            "ingredient_11" : "3 cups (720 mL) vegetable broth",
+            "ingredient_12" : "1 cup (185g) red lentils, soaked (see step #1)",
+            "ingredient_13" : "¼ cup (32g) walnuts (or pecans), crushed finely",
+            "ingredient_14" : "1 (14.5-ounce/410g) can of crushed tomatoes or whole peeled tomatoes, crushed by hand (see note 3)",
+            "ingredient_15" : "12-16 ounces (340-454g) long, wide pasta (such as tagliatelle, pappardelle, or fettuccine; or tube pasta such as rigatoni or penne rigate; or gnocchi)(see note 4)",
+            "ingredient_16" : "1 tablespoon high-quality balsamic vinegar (see note 5)",
+            "ingredient_17" : "Flat-leaf Italian parsley or fresh basil, chopped or slivered (optional)"
+        },
+        "directions" : {
+            "step_1" : "Soak the 1 cup of lentils in water for 30 minutes, or up to 60 minutes. Meanwhile, prep all the other ingredients (i.e., chop the onions and garlic, chop the walnuts, etc.)- ",
+            "step_2" : "Heat a 12-inch deep sauté pan or Dutch oven on medium-high heat. Add the olive oil, and once it's shimmering, add the onions and season with a pinch of salt. Stir occasionally and cook the onions until a light brown fond starts form on the surface of the pan, about 5 minutes. Add a few spoons of water to deglaze the pan, and stir. Continue cooking the onions, adding more water every few minutes and stirring frequently to prevent burning, until the onions are softened and golden brown, 9-10 minutes.",
+            "step_3" : "Add the garlic, thyme, oregano, 1 1/2 teaspoons kosher salt, and pepper to taste. Stir frequently and cook for 60-90 seconds.",
+            "step_4" : "Stir in the tomato paste and cook for 2-3 minutes to caramelize, stirring very frequently, until it's darker red in color.",
+            "step_5" : "Optional: If using the red wine, pour the wine into the pan and deglaze, scraping up any browned bits. Cook for 1-2 minutes, until the smell of alcohol has burned off and the mixture is jammy.",
+            "step_6" : "Pour in the broth to deglaze the pan, stirring any browned bits on the bottom of the pot and stirring the broth into the tomato paste to combine. Add the lentils and walnuts, and stir to incorporate. Heat until the mixture comes to a boil, then reduce the heat to medium-low to maintain a rapid simmer for 20 minutes, stirring occasionally.",
+            "step_7" : "Add the crushed tomatoes and simmer for another 15-20 minutes, or until the lentils are tender but still al dente, stirring occasionally to prevent burning and sticking.",
+            "step_8" : "Meanwhile, bring a large pot of water to a boil and salt generously. Add the pasta and cook until just al dente. Reserve a ladle or so of pasta water (may not need it). Drain the pasta but do not rinse it.",
+            "step_9" : "Taste the bolognese for seasonings, adding more salt and pepper to taste. Finish with the balsamic vinegar (or sugar, see note 5), and stir to combine.",
+            "step_10" : "Add the hot cooked pasta to the bolognese and toss until well coated in the sauce, adding a bit of pasta water as needed to ensure the sauce coats the noodles. Garnish with chopped parsley or basil, if using."
+        }
+    },
+    {
+        "id" : 3,
+        "food_name" : "Honey-Garlic Pork Chops",
+        "time_cooking" : "30 mins",
+        "categ" : "Meat",
+        "country" : "USA",
+        "image" : "/images/Foods/honey_garlic_pork_chops.jpg",
+        "ingredients" : {
+            "ingredient_1" : "½ cup ketchup",
+            "ingredient_2" : "2 ⅔ tablespoons honey",
+            "ingredient_3" : "2 tablespoons low-sodium soy sauce",
+            "ingredient_4" : "2 cloves garlic, crushed",
+            "ingredient_5" : "6 (4 ounce) (1-inch thick) pork chops"
+        },
+        "directions" : {
+            "step_1" : "Preheat grill for medium heat and lightly oil the grate. Gather ingredients.",
+            "step_2" : "Whisk ketchup, honey, soy sauce, and garlic together in a bowl to make a glaze.",
+            "step_3" : "Sear the pork chops on both sides on the preheated grill. Lightly brush glaze onto each side of the chops as they cook; grill until no longer pink in the center, about 7 to 9 minutes per side. An instant-read thermometer inserted into the center should read 145 degrees F (63 degrees C).",
+            "step_4" : "Serve hot and enjoy!"
+        }
+    },
+    {
+        "id" : 4,
+        "food_name" : "Buckeye Bundt Cake",
+        "time_cooking" : "3 hr",
+        "categ" : "Dessert",
+        "country" : "USA",
+        "image" : "/images/Foods/buckeye_bundt_cake.jpeg",
+        "ingredients" : {
+            "ingredient_1" : "8 ounces cream cheese, at room temperature",
+            "ingredient_2" : "3/4 cup creamy peanut butter",
+            "ingredient_3" : "1/3 cup granulated sugar",
+            "ingredient_4" : "2 large eggs",
+            "ingredient_5" : "Nonstick cooking spray, for the pan",
+            "ingredient_6" : "2 cups all-purpose flour (see Cook's Note)",
+            "ingredient_7" : "1/2 cup unsweetened cocoa powder",
+            "ingredient_8" : "1 1/2 teaspoons baking powder",
+            "ingredient_9" : "1 1/2 teaspoons baking soda",
+            "ingredient_10" : "1 teaspoon kosher salt",
+            "ingredient_11" : "1 cup granulated sugar",
+            "ingredient_12" : "1/2 cup vegetable oil",
+            "ingredient_13" : "2 large eggs",
+            "ingredient_14" : "1 tablespoon pure vanilla extract",
+            "ingredient_15" : "1 cup sour cream",
+            "ingredient_16" : "1/2 cup packed light brown sugar",
+            "ingredient_17" : "1 tablespoon powdered peanut butter",
+            "ingredient_18" : "8 ounces semisweet chocolate, chopped"
+        },
+        "directions" : {
+            "step_1" : "For the peanut butter cheesecake: Combine the cream cheese, peanut butter, granulated sugar and eggs in a stand mixer fitted with the paddle attachment and beat on medium-high speed until smooth, 2 to 3 minutes. Transfer to a small bowl; set aside. Wipe the mixer bowl and paddle clean and return to the stand.",
+            "step_2" : "For the chocolate cake: Preheat the oven to 350 degrees F. Spray a 10-cup nonstick bundt pan with cooking spray.",
+            "step_3" : "Combine the flour, cocoa powder, baking powder, baking soda and salt in a medium bowl; set aside.",
+            "step_4" : "Add the granulated sugar and oil to the stand mixer fitted with the paddle attachment and beat on medium speed until combined, scraping the sides of the bowl as needed, about 1 minute. Add the eggs one at a time, beating well between each addition. Beat in the vanilla. Reduce the mixer speed to low and beat in a third of the flour mixture followed by 1/2 cup of the sour cream. Repeat with another third of the flour mixture and the remaining 1/2 cup sour cream. End with the remaining third of the flour mixture, scraping the bowl if needed so that everything is incorporated.",
+            "step_5" : "Combine the brown sugar and powdered peanut butter in a small bowl.",
+            "step_6" : "Spoon half of the chocolate cake batter into the prepared pan and smooth with the back of a spoon. Sprinkle with half of the brown sugar mixture, making sure all of the cake batter is covered. Spoon the cheesecake mixture over top, smoothing it out with the back of a spoon. Sprinkle over the remaining brown sugar mixture, covering all of the cheesecake. Top with the remaining cake batter and smooth it out with the back of a spoon.",
+            "step_7" : "Bake until the cake looks set and a toothpick inserted into the center comes out clean, about 50 minutes. Let cool in the pan for 20 minutes, then turn out onto a wire rack to cool completely, about 1 hour.",
+            "step_8" : "For the topping: Bring some water to a boil in a small pot. Add the chocolate to a medium heatproof bowl and place over the boiling water, making sure that the bottom of the bowl does not touch the water. Heat the chocolate, stirring occasionally, until melted, about 4 minutes.",
+            "step_9" : "Pour the chocolate over the cake, letting it spread over the top and drip down the sides, helping it along with a spatula if need be to spread it to the edges. Let the chocolate set in the refrigerator, about 30 minutes. The cake can be stored, covered, in the refrigerator for up to 4 days."
+        }
+    },
+    {
+        "id" : 5,
+        "food_name" : "Honey BBQ Chicken Wings",
+        "time_cooking" : "30 mins",
+        "categ" : "Lunch",
+        "country" : "USA",
+        "image" : "/images/Foods/honey_bbq_chicken_wings.png",
+        "ingredients" : {
+            "ingredient_1" : "1 cup flour(125 g)",
+            "ingredient_2" : "1 teaspoon chili powder",
+            "ingredient_3" : "1 teaspoon kosher salt",
+            "ingredient_4" : "1 teaspoon black pepper, freshly ground",
+            "ingredient_5" : "1 teaspoon paprika",
+            "ingredient_6" : "1 teaspoon garlic powder",
+            "ingredient_7" : "20 chicken wings, or drumettes",
+            "ingredient_8" : "1 cup BBQ sauce(290 g)",
+            "ingredient_9" : "½ cup honey(170 g)"
+        },
+        "directions" : {
+            "step_1" : "Preheat oven to 425°F (220°C).",
+            "step_2" : "In a bowl, combine flour, chili powder, salt, pepper, paprika, and garlic powder. Coat the wings in the flour evenly, shaking off any excess.",
+            "step_3" : "Place the floured wings on a parchment paper–lined baking sheet and spread them out in a single layer.",
+            "step_4" : "Bake for 45 minutes, flipping halfway through, until skin is crispy and golden brown.",
+            "step_5" : "Preheat oven to 500°F (250°C).",
+            "step_6" : "In a separate bowl, combine the BBQ sauce and the honey. Stir the cooked wings in the sauce and coat them evenly.",
+            "step_7" : "Place the coated wings back onto the baking sheet and spread them in a single layer.",
+            "step_8" : "Bake for 8 to 10 minutes, until sauce is bubbly and caramelized. Cool, then serve."
+        }
+    },
+    {
+        "id" : 6,
+        "food_name" : "Ghanaian Salad",
+        "time_cooking" : "15 mins",
+        "categ" : "Salad",
+        "country" : "Ghana",
+        "image" : "/images/Foods/ghanaian_salad.jpeg",
+        "ingredients" : {
+            "ingredient_1" : "16 ounces romaine lettuce, chopped",
+            "ingredient_2" : "8 ounces cucumber, sliced (about 1/2 English cucumber)",
+            "ingredient_3" : "6 ounces carrots, shredded (about 2 medium)",
+            "ingredient_4" : "1 small red onion, thinly sliced",
+            "ingredient_5" : "One 13.7-ounce can baked beans, drained well",
+            "ingredient_6" : "5 ounces grape tomatoes, halved",
+            "ingredient_7" : "3 hard-boiled eggs, sliced",
+            "ingredient_8" : "2 small avocados, cubed",
+            "ingredient_9" : "1/4 teaspoon freshly ground black pepper",
+            "ingredient_10" : "Salad cream, such as Heinz, for drizzling"
+        },
+        "directions" : {
+            "step_1" : "Add the lettuce, cucumbers, carrots and onions to a large salad bowl and toss to combine. Top the salad with the beans, grape tomatoes, hard-boiled eggs and avocado. Sprinkle with the black pepper. Drizzle the salad cream onto the salad before serving."
+        }
+    }
+]

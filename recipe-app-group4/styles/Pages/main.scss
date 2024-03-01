@@ -1,0 +1,153 @@
+.main_section_3 {
+    width: 90%;
+    height: 100%;
+    margin: 0% 5% 0% 5%;
+    border-radius: 1rem;
+    .main_section_3_title {
+        text-align: center;
+        margin: 0 0 2% 0;
+        .main_section_3_food_description {
+            font-size: 1.3rem;
+        }
+    }
+    .main_section_3_container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2%;
+        justify-content: start;
+        .main_section_3_contain {
+            margin: 0 0 2% 0;
+            display: flex;
+            flex-direction: column;
+            width: 32%;
+            height: 25rem;
+            background-color: aliceblue;
+            border-radius: 1rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+            position: relative;
+            top: 0;
+            transition: top 200ms linear;
+            .main_section_3_image {
+                margin: 3%;
+                border-radius: 1rem;
+                height: 65%;
+                .main_section_3_image_contain {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 1rem;
+                    object-fit: cover;
+                }
+            }
+            .main_section_3_food_name {
+                margin-inline: 3%;
+                .main_foodName {
+                    color: rgb(94, 173, 243);
+                    transition: color 200ms linear;
+                }
+                .main_foodName:hover {
+                    color: orange;
+                }
+                .main_section_3_tf {
+                    margin-top: 5%;
+                    display: flex;
+                    gap: 5%;
+                    .main_section_3_tf_contain {
+                        text-align: center;
+                        width: 100%;
+                        padding: 1%;
+                        border-radius: 1rem;
+                    }
+                }
+            }
+        }
+        .main_section_3_contain:hover {
+            top: -10px;
+        }
+    }
+}
+/*LAPTOP SCREEN*/
+@media (max-width: 1024px) {
+    .main_section_3_container {
+        margin-bottom: 1.5%;
+        .main_section_3_contain {
+            height: 22rem !important;
+            .main_section_3_food_name {
+                margin-top: 3%;
+                .main_foodName {
+                    font-size: 1.5rem !important;
+                }
+                .main_section_3_tf {
+                    margin-top: 7%;
+                    .main_section_3_tf_contain {
+                        font-size: .9rem;
+                        width: 33%;
+                    }
+                }
+            }
+        }
+    }
+}
+/*TABLET SCREEN*/
+@media (max-width: 768px) {
+    .main_section_3_title {
+        margin: 0 0 3% 0 !important;
+        .main_sec_3_title {
+            margin: 0 0 1% 0;
+        }
+    }
+    .main_section_3_food_description {
+        font-size: 1rem !important;
+    }
+    .main_section_3_container {
+        margin-bottom: 2%;
+        .main_section_3_contain {
+            height: 22rem !important;
+            .main_section_3_food_name {
+                margin-top: 0;
+                .main_foodName {
+                    font-size: 1.2rem !important;
+                }
+                .main_section_3_tf {
+                    margin-top: 2% !important;
+                    flex-wrap: wrap;
+                    gap: .5rem;
+                    .main_section_3_tf_contain {
+                        margin-top: 3.5%;
+                        font-size: .8rem;
+                        width: 40% !important;
+                    }
+                }
+            }
+        }
+        .main_section_3_contain:hover {
+            top: 0 !important;
+        }
+    }
+}
+/*MOBILE SCREEN*/
+@media (max-width: 320px) {
+    .main_sec_3_title {
+        font-size: 1.5rem;
+        margin: 2% 0 2% 0;
+    }
+    .main_section_3_food_description {
+        font-size: .9rem !important;
+        margin: 0 0 10% 0 !important;
+    }
+    .main_section_3_container {
+        margin-bottom: 2%;
+        .main_section_3_contain {
+            margin-bottom: 10% !important;
+            width: 100% !important;
+            height: 26rem !important;
+            .main_section_3_food_name {
+                .main_foodName {
+                    font-size: 1.5rem !important;
+                }
+            }
+        }
+        .main_section_3_contain:hover {
+            top: 0 !important;
+        }
+    }
+}

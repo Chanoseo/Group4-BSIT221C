@@ -1,0 +1,127 @@
+.header {
+    width: 100%;
+    padding: 1.5% 4% 1.5% 4%;
+    display: flex;
+    align-items: center;
+    gap: 27%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, .7);
+    .logo {
+        font-size: 2rem;
+        color: #000;
+        font-weight: 900;
+    }
+    .logo:hover {
+        color: orange;
+    }
+    .firstNav {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        #header_arrow {
+            display: none;
+        }
+        .header_ul {
+            width: 100%;
+            display: flex;
+            gap: 10%;
+            justify-content: center;
+            .link {
+                color: black;
+                font-size: 1.2rem;
+            }
+            .link:hover {
+                color: orange;
+            }
+        }
+    }
+    .secondNav {
+        font-size: 1.4rem;
+        width: 4%;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        .icon {
+            cursor: pointer;
+            color: black;
+        }
+        .icon:hover {
+            color: orange;
+        }
+    }
+}
+/*LAPTOP SCREEN*/
+@media (min-width:768px) and (max-width: 1024px) {
+    .header {
+        gap: 23%;
+        .firstNav {
+            width: 100%;
+        }
+        .secondNav {
+            width: 13%;
+            gap: 1rem;
+        }
+    }
+}
+/*TABLET SCREEN*/
+@media (max-width: 768px) {
+    .header {
+        padding: 3% 4% 3% 4%;
+        gap: 1rem;
+        justify-content: space-between;
+        .firstNav {
+            gap: 1.5rem;
+            .header_ul {
+                gap: 5%;
+            }
+        }
+        .secondNav {
+            gap: .4rem;
+        }
+    }
+}
+/*MOBILE SCREEN*/
+@media (max-width: 320px) {
+    .header {
+        padding: 10% 4% 10% 4%;
+        .secondNav {
+            display: none;
+        }
+        .firstNav {
+            position: absolute;
+            left: -100%;
+            top: 0;
+            transition: left 400ms ease-in-out 100ms;
+            #header_arrow {
+                z-index: 99;
+                display: block;
+                position: absolute;
+                top: 5%;
+                left: 5%;
+                font-size: 2rem;
+            }
+            .header_ul {
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 5rem;
+                a {
+                    font-size: 2rem !important;
+                }
+            }
+        }
+        .firstNav.show {
+            background-color: rgba(255, 255, 255, 1);
+            width: 100%;
+            height: 100vh;
+            left: 0;
+            top: 0;
+            position: absolute;
+            display: block;
+        }
+    }
+}
