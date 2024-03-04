@@ -72,8 +72,7 @@
                     input[type = checkbox] {
                         cursor: pointer;
                         appearance: none;
-                        width: 2rem;
-                        height: 2rem;
+                        padding: 1rem;
                         margin-right: 2%;
                         border: none;
                         background-color: white;
@@ -105,8 +104,7 @@
                     input[type = checkbox] {
                         cursor: pointer;
                         appearance: none;
-                        width: 2rem;
-                        height: 2rem;
+                        padding: 1rem;
                         margin-right: 2%;
                         border: none;
                         background-color: white;
@@ -144,8 +142,6 @@
         font-size: 1.3rem !important;
         input[type = checkbox] {
             margin-right: 3% !important;
-            width: 1.7rem !important;
-            height: 1.7rem !important;
         }
     }
 }
@@ -177,8 +173,7 @@
             font-size: 1.1rem !important;
             input[type = checkbox] {
                 margin-right: 3% !important;
-                width: 1.3rem !important;
-                height: 1.3rem !important;
+                padding: .8rem !important;
             }
         }
     }
@@ -220,10 +215,8 @@
             .food_li {
                 font-size: 1rem !important;
                 input[type = checkbox] {
-                    padding-right: 10% !important;
+                    padding: .8rem !important;
                     margin-right: 7% !important;
-                    width: 1.4rem !important;
-                    height: 1.4rem !important;
                 }
             }
         }
