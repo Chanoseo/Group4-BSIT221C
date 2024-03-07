@@ -20,8 +20,8 @@ export default function Home ( {foods} ) {
                 <title>Home</title>
             </Head>
             <main>
-                <Hot_Recipe />
-                <Categories />
+                <Hot_Recipe/>
+                <Categories foods={foods}/>
                 <section className="main_section_3">
                     <div className="main_section_3_title">
                         <h1 className="main_sec_3_title">Simple and Tasty Recipes.</h1>
