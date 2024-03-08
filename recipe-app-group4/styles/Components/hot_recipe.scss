@@ -92,10 +92,11 @@
     }
 }
 /*MOBILE SCREEN*/
-@media (max-width: 320px) {
+@media (max-width: 426px) {
     .hot_recipes_section_1 {
         background-image: url('/images/Foods/papeta_par_eda.jpeg');
         margin-bottom: 7%;
+        height: 100%;
         .hot_recipes_section_1_food {
             width: 100% !important;
             .hot_recipes_section_1_container {
@@ -104,14 +105,15 @@
                 flex-direction: column;
                 align-items: center;
                 .hot_recipes_section_1_hr {
-                    width: 37% !important;
-                    font-size: 1rem !important;
+                    width: 30vw !important;
+                    font-size: 3.5vw !important;
                     text-align: center;
+                    padding: 2.5% !important;
                 }
                 .hot_recipes_section_1_food_title {
                     width: 100%;
                     text-align: center;
-                    font-size: 2rem !important;
+                    font-size: 9vw !important;
                     margin: 5% 0 0 0 !important;
                     padding: 5% !important;
                     background-color: #fff;
@@ -119,7 +121,7 @@
                 }
                 .hot_recipes_section_1_food_description {
                     margin: 0 !important;
-                    font-size: 1rem !important;
+                    font-size: 4vw !important;
                     text-align: center;
                     background-color: #fff;
                     border-radius: 0 0 1rem 1rem;
@@ -128,11 +130,11 @@
             }
         }
         .hot_recipes_section_1_tf_categ {
-            margin-top: 3%;
+            margin-block: 3%;
             .hot_recipes_section_1_tf_categ_contain {
-                font-size: .8rem;
+                font-size: 3vw;
                 width: 100% !important;
-                margin: 0;
+                padding: 2% !important;
             }
         }
         .hot_recipes_section_1_image {

@@ -40,14 +40,17 @@
     }
 }
 /*MOBILE SCREEN*/
-@media (max-width: 320px) {
+@media (max-width: 426px) {
     .footer {
         gap: 1rem;
+        .group {
+            font-size: 5vw;
+        }
         .members {
             flex-direction: column;
             gap: 1rem;
             .name {
-                font-size: 1rem;
+                font-size: 3.5vw !important;
             }
         }
     }

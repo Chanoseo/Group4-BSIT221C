@@ -65,9 +65,10 @@
     }
 }
 /*MOBILE SCREEN*/
-@media (max-width: 320px) {
+@media (max-width: 426px) {
     .categories_title {
         text-align: center;
+        font-size: 9vw;
     }
     .categories_container {
         width: 100%;
@@ -85,7 +86,7 @@
             top: 0 !important;
         }
         .categories_section_2_categories {
-            font-size: 1.5rem !important;
+            font-size: 7vw !important;
             margin: 0 0 5% 0 !important;
         }
     }

@@ -197,14 +197,14 @@
     }
 }
 /*MOBILE SCREEN*/
-@media (max-width:320px) {
+@media (max-width:426px) {
     .contacts_section_1 {
         margin: 0 10% 0 10%;
         .contacts_head {
-            font-size: 2rem;
+            font-size: 9vw;
         }
         .contacts_para {
-            font-size: 1rem;
+            font-size: 4vw;
         }
     }
     .contacts_section_2 {
@@ -216,31 +216,34 @@
             padding: 2%;
             .contacts_section_2_contact_information {
                 margin: 0;
-                font-size: 1.4rem;
+                font-size: 6vw;
+            }
+            .contacts_section_2_desc {
+                font-size: 4vw !important;
             }
             .icon {
                 font-size: 1.2rem;
             }
             .contacts_section_2_contact {
-                font-size: .9rem !important;
+                font-size: 3.5vw !important;
             }
             .contacts_section_2_email {
-                font-size: .9rem !important;
+                font-size: 3.5vw !important;
             }
             .contacts_section_2_location {
-                font-size: .9rem !important;
+                font-size: 3.5vw !important;
             }
         }
     }
     .contacts_name, .contacts_email, .contacts_comment {
-        font-size: 1rem !important;
+        font-size: 5vw !important;
     }
     .contacts_name_email {
         gap: 1rem !important;
     }
     .contacts_submit {
-        font-size: .8rem !important;
+        font-size: 3.5vw !important;
         width: 40% !important;
-        height: 2rem !important;
+        height: 5vh !important;
     }
 }

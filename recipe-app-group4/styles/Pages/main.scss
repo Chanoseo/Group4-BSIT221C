@@ -125,24 +125,36 @@
     }
 }
 /*MOBILE SCREEN*/
-@media (max-width: 320px) {
+@media (max-width: 426px) {
     .main_sec_3_title {
-        font-size: 1.5rem;
-        margin: 2% 0 2% 0;
+        font-size: 7.5vw;
+        margin: 2% 0 3% 0 !important;
+    }
+    .main_section_3_image_contain {
+        height: 30vh !important;
     }
     .main_section_3_food_description {
-        font-size: .9rem !important;
+        font-size: 5vw !important;
         margin: 0 0 10% 0 !important;
+    }
+    .main_section_3_tf {
+        margin-bottom: 7%;
+    }
+    .main_section_3_tf_contain {
+        padding: 2% !important;
+        p {
+            font-size: 3vw;
+        }
     }
     .main_section_3_container {
         margin-bottom: 2%;
         .main_section_3_contain {
             margin-bottom: 10% !important;
             width: 100% !important;
-            height: 26rem !important;
+            height: 100% !important;
             .main_section_3_food_name {
                 .main_foodName {
-                    font-size: 1.5rem !important;
+                    font-size: 6vw !important;
                 }
             }
         }

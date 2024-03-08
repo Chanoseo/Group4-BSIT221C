@@ -86,11 +86,14 @@
     }
 }
 /*MOBILE SCREEN*/
-@media (max-width:320px) {
+@media (max-width:426px) {
     .section_1 {
         margin: 1% 18.4% 1% 18.4%;
+        .head {
+            font-size: 10vw;
+        }
         .para {
-            font-size: 1rem;
+            font-size: 4vw;
         }
     }
     .section_2 {
@@ -103,7 +106,7 @@
             width: 25%;
             border-radius: 100%;
             .members {
-                font-size: 1.5rem;
+                font-size: 7vw;
             }
             .image {
                 width: 180px;

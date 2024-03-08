@@ -179,7 +179,7 @@
     }
 }
 /*MOBILE SCREEN*/
-@media (max-width: 320px) {
+@media (max-width: 426px) {
     #icon {
         margin: 10% 0 10% 8%;
         font-size: 2.5rem;
@@ -192,12 +192,12 @@
         .food_foodName {
             text-align: center;
             padding-inline: 1%;
-            font-size: 2rem !important;
+            font-size: 10vw !important;
         }
         .food_time_categ_country {
             gap: 1rem !important;
             .food_tcc {
-                font-size: .7rem !important;
+                font-size: 3vw !important;
                 width: 30% !important;
                 padding: 2% !important;
             }
@@ -206,14 +206,14 @@
             margin-top: 15% !important;
         }
         .food_ingredients_title, .food_directions_title {
-            font-size: 1.7rem !important;
+            font-size: 7vw !important;
         }
         .food_ul {
             margin-top: 10% !important;
             margin-bottom: 10%;
             gap: 2rem !important;
             .food_li {
-                font-size: 1rem !important;
+                font-size: 4vw !important;
                 input[type = checkbox] {
                     padding: .8rem !important;
                     margin-right: 7% !important;
