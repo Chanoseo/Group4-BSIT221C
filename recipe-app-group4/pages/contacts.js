@@ -42,7 +42,7 @@ export default function Contacts () {
                     <form action='' method='' className="contacts_form">
                         <div className="contacts_name_email">
                             <input type='text' placeholder='First Name' className="contacts_name"></input>
-                            <input type='text' placeholder='Last Email' className="contacts_name"></input>
+                            <input type='text' placeholder='Last Name' className="contacts_name"></input>
                         </div>
                         <input  type='text' placeholder='Email' className="contacts_email"></input>
                         <input  type='text' placeholder='Comment' className="contacts_comment"></input>
